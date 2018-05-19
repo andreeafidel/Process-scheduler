@@ -1,0 +1,5 @@
+	Am implementat o clasa Process in care am scris functiile pentru task-urile cerute.
+	In main am verificat tipul planificatorului primit. Am converit valoarea numarului ce trebuia testat si rezultatul in urma procesului din int in String.
+	Daca este RandomScheduler am generat un numar random intre 0 si lungimea vectorului de procese. Dupa aceea in functie de ce proces trebuia executat am apelat functia respectiva. Astfel pentru fiecare numar dat in fisier se executa la intamplare un proces.
+	Daca planificatorul este RoundRobin am executat primul proces din vector cu primul numar, al doilea proces cu al doilea numar etc. Cand am ajuns la finalul vectorului de procese l-am reluat pe acesta de la 0 si am continuat de unde am ramas cu numerle.
+	La WeightedScheduler am calculat suma cotelor proceselor, cmmdc-ul acestora si dupa am aflat momentul de timp t. 
